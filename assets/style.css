@@ -55,7 +55,7 @@ h1 {
     top: 9px;
 }
 
-.box input {
+.box input{
     background: var(---gray);
     width: 95%;
     height: 40px;
@@ -147,13 +147,12 @@ h1 {
 }
 
 .post-card {
-
     background-color: var(--white);
     margin: 10px;
     margin-top: 30px;
     border-radius: 25px;
     border: 1px solid #67FFCF;
-    box-shadow: 0 1px 14px #11D58E;
+    box-shadow: 0 1px 14px #0AFF65;
 }
 
 
@@ -289,9 +288,7 @@ span {
 
 
 .box {
-    position: absolute;
-    left: 2%;
-    top: 38%;
+	 position: relative;
     background: var(---gray);
     height: 30px;
     border-radius: 40px;
@@ -299,16 +296,8 @@ span {
     border: 1px solid #00FFE9;
 }
 
-.box:hover>#searcht {
-    width: 345px;
-    top: 50px;
-}
-
-.box:hover>.sebtn {
-    background: #000;
-}
-
 .sebtn {
+	 background: #000;
     color: #00FFE9;
     float: right;
     width: 30px;
@@ -328,12 +317,12 @@ span {
     background: none;
     outline: none;
     float: left;
+	 width: 80%;
     padding: 0;
     color: white;
     font-size: 16px;
     transition: 0.4s;
     line-height: 30px;
-    width: 0px;
     margin-top: -5px;
     margin-left: 5px;
 }
